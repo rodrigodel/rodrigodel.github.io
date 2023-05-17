@@ -23,16 +23,29 @@ Entrei na UFES em 95 para cursar Estatística aos 17 anos e acabei não me forma
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="48" width="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="48" width="48"/>
 
-#### Data Science
+#### Data Science - Linguagens
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" height="48" width="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="48" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/julia/julia-original.svg" height="48" width="48"/>
+<img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/sas_logo_icon_170761.png" height="48" width="48"/>
+
+#### Data Science - Certificações
+
+<img src="https://images.credly.com/size/340x340/images/28944969-813a-43b9-944f-7910111ce764/Professional_Certificate_-_Data_Science.png" height="120" width="120"/>
+<img src="https://images.credly.com/size/340x340/images/462503e9-d76e-47ce-b82e-1d7df909ba70/Professional_Certificate_-_Data_Analyst.png" height="120" width="120"/>
+<img src="https://images.credly.com/size/340x340/images/ac4daa48-1924-4dc5-80cf-ede5a08bac51/Data_Science_Foundations_Specialization.png" height="120" width="120"/>
 
 #### Agilidade
+
+<img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_CSM.png" height="70" width="70"/>
+<img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_A-CSPO.png" height="70" width="70"/>
 <img src="https://www.scrumalliance.org/_scrum/images/badges300x300/active/SA_badge_csp_sm.png" height="64" width="64"/>
 <img src="https://www.scrumalliance.org/_scrum/images/badges300x300/active/SA_badge_csp_po.png" height="64" width="64"/>
 <img src="https://images.credly.com/images/a2790314-008a-4c3d-9553-f5e84eb359ba/twitter_thumb_201604_image.png" height="58" width="58"/>
-<img src="https://kanban.university/wp-content/uploads/2020/09/KCP-300x202.png" height="64" width="100"/>
+<img src="https://kanban.university/kuapps/assets/media/landing/svgs/badges/new%20KCP_Badges_LKU_2019.svg" height="58" width="100"/>
+<img src="https://kanban.university/kuapps/assets/media/landing/svgs/badges/CXP_Badges_KU_2020.svg" height="58" width="100"/>
+<img src="https://kanban.university/kuapps/assets/media/landing/svgs/badges/KMP_Badges_LKU_2019.svg" height="58" width="100"/>
 <img src="https://edinburghagile.com/wp-content/uploads/2020/06/Scrum@Scale-Badge.png" height="60" width="60"/>
 <img src="https://ucagile.com/wp-content/uploads/elementor/thumbs/certified-less-practitioner-q1a8b9ypofjcapx81z0e1zi1qty50lz72v8efkuda0.png" height="56" width="56"/>
 
