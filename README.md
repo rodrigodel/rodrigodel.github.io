@@ -39,7 +39,7 @@ Entrei na UFES em 95 para cursar Estatística aos 17 anos e acabei não me forma
 #### Agilidade
 
 <img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_CSM.png" height="70" width="70"/>
-<img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_A-CSPO.png" height="70" width="70"/>
+<img src="https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_CSPO.png" height="70" width="70"/>
 <img src="https://www.scrumalliance.org/_scrum/images/badges300x300/active/SA_badge_csp_sm.png" height="64" width="64"/>
 <img src="https://www.scrumalliance.org/_scrum/images/badges300x300/active/SA_badge_csp_po.png" height="64" width="64"/>
 <img src="https://images.credly.com/images/a2790314-008a-4c3d-9553-f5e84eb359ba/twitter_thumb_201604_image.png" height="58" width="58"/>
