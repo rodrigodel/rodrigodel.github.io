@@ -1045,31 +1045,35 @@
       });
      </script>
 
-    <script>
-      document.getElementById('contactForm').addEventListener('submit', function(e) {
-          e.preventDefault(); // Impede o comportamento padrão de submissão do formulário
-    
-          var formData = new FormData(this); // Captura os dados do formulário
-    
-          fetch('https://www.rodrigozambon.com.br/mail.php', {
-              method: 'POST',
-              body: formData
-          })
-          .then(response => response.text())
-          .then(data => {
-          console.log(data);  // Para debug: o que exatamente o servidor está respondendo?
-          if (data.includes("Message has been sent")) {
-              window.location.href = 'https://www.rodrigozambon.com.br/thankyou.html';
-          } else {
-              alert('Houve um erro no envio do formulário: ' + data);
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault(); // Impede o comportamento padrão de submissão do formulário
+
+      var formData = new FormData(this); // Captura os dados do formulário
+
+      fetch('https://www.rodrigozambon.com.br/mail.php', {
+          method: 'POST',
+          body: formData
+      })
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
           }
+          return response.text();
+      })
+      .then(data => {
+          console.log(data); // Para depuração, mostramos os dados no console
+          alert('Sua mensagem foi enviada com sucesso!'); // Mostra um alerta para o usuário
+          // Aqui você ainda pode adicionar um redirecionamento ou limpar o formulário se necessário
+          // window.location.href = 'https://www.rodrigozambon.com.br/thankyou.html';
+          // document.getElementById('contactForm').reset(); // Opcional: resetar o formulário
       })
       .catch(error => {
-    console.error('Error:', error);
-    alert('Erro técnico no envio do formulário. Por favor, tente novamente.');
-});
+          console.error('Error:', error);
+          alert('Houve um erro ao enviar sua mensagem. Por favor, tente novamente.');
       });
-    </script>
+  });
+</script>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
