@@ -1047,33 +1047,28 @@
 
     <script>
       document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Impede o comportamento padrão de submissão do formulário
-
-    var formData = new FormData(this); // Captura os dados do formulário
-
-    fetch('https://www.rodrigozambon.com.br/mail.php', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-        }
-        return response.text();
-    })
-    .then(data => {
-        console.log(data);
-        // Aqui você pode adicionar uma condição para verificar se a mensagem foi enviada com sucesso
-        // Exemplo:
-        // if (data === "Message has been sent") {
-        window.location.href = 'https://www.rodrigozambon.com.br/thankyou.html';
-        // }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        alert('Houve um erro no envio do formulário, por favor tente novamente.');
-    });
+          e.preventDefault(); // Impede o comportamento padrão de submissão do formulário
+    
+          var formData = new FormData(this); // Captura os dados do formulário
+    
+          fetch('https://www.rodrigozambon.com.br/mail.php', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.text())
+          .then(data => {
+          console.log(data);  // Para debug: o que exatamente o servidor está respondendo?
+          if (data.includes("Message has been sent")) {
+              window.location.href = 'https://www.rodrigozambon.com.br/thankyou.html';
+          } else {
+              alert('Houve um erro no envio do formulário: ' + data);
+          }
+      })
+      .catch(error => {
+    console.error('Error:', error);
+    alert('Erro técnico no envio do formulário. Por favor, tente novamente.');
 });
+      });
     </script>
 
     <script src="js/jquery.min.js"></script>
