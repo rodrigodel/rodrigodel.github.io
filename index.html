@@ -1014,7 +1014,7 @@
                             </div>
                           </div>
 
-                          <!-- <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>-->
+                          <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
       
                           <button type="submit">Enviar</button>
                         </div>
@@ -1044,9 +1044,9 @@
           })
           .then(response => response.text())
           .then(data => {
-        alert(data);  // Exibe a mensagem de sucesso
-        window.location.href = 'https://www.rodrigozambon.com.br/thankyou.html'; // Redireciona para a página de agradecimento
-    })
+                console.log(data);
+                window.location.href = 'https://www.rodrigozambon.com.br/thankyou.html';
+            })
           .catch(error => console.error('Error:', error));
       });
     </script>
