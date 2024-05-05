@@ -1034,35 +1034,24 @@
       </div>
     </div>
 
+
 <script>
- document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault(); // Impede o comportamento padrão de submissão do formulário
-
-    var recaptchaResponse = grecaptcha.getResponse();
-
-    if (recaptchaResponse.length === 0) { // Verifica se o reCAPTCHA está checado
-        alert('Por favor, confirme que você não é um robô.');
-    } else {
-        // Se o captcha for validado, prossegue com o envio do formulário
-        var formData = new FormData(this); // Captura os dados do formulário
-        
-        fetch('https://www.rodrigozambon.com.br/mail.php', {
-            method: 'POST',
-            body: formData
-        })
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.text();
-        })
-        .then(data => {
-            console.log(data);
-            window.location.href = 'https://www.rodrigozambon.com/thankyou.html';
-        })
-        .catch(error => console.error('Error:', error));
-    }
-});
+  document.getElementById('contactForm').addEventListener('submit', function(e) {
+          e.preventDefault(); // Impede o comportamento padrão de submissão do formulário
+    
+          var formData = new FormData(this); // Captura os dados do formulário
+    
+          fetch('https://www.rodrigozambon.com.br/mail.php', {
+              method: 'POST',
+              body: formData
+          })
+          .then(response => response.text())
+          .then(data => {
+                console.log(data);
+                window.location.href = 'https://www.rodrigozambon.com/thankyou.html';
+            })
+          .catch(error => console.error('Error:', error));
+      });
 </script>
 
     <script src="js/jquery.min.js"></script>
