@@ -1066,9 +1066,11 @@
         alert('Sua mensagem foi enviada com sucesso!');
     })
     .catch(error => {
-        console.error('Error:', error);
-        alert('Houve um erro ao enviar sua mensagem. Por favor, tente novamente.');
-    });
+    console.error('Error:', error);
+    alert('Houve um erro ao enviar sua mensagem. Por favor, tente novamente.');
+    // Redireciona o usuário para uma página específica em caso de erro
+    window.location.href = 'https://www.rodrigozambon.com.br/error-page.html';
+});
 });
 </script>
 
